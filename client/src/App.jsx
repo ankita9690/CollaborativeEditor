@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:4000"); // Replace with Render link when deployed
+const socket = io("https://collaborativeeditor.onrender.com"); // Replace with Render link when deployed
 
 function App() {
   const [text, setText] = useState("");
